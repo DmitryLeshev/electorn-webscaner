@@ -1,0 +1,12 @@
+@import "./styles/index.scss";
+
+@font-face {
+  font-weight: normal;
+  font-family: "Password";
+  font-style: normal;
+  font-display: auto;
+  src: local("Password"),
+    url(../shared/assets/fonts/password/Password.woff2) format("woff2"),
+    url(../shared/assets/fonts/password/Password.woff2) format("woff");
+  unicode-range: U+0021-007E;
+}
